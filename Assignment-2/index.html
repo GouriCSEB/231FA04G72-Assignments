@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Music Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to your CSS and FontAwesome -->
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ====== SIDEBAR ====== -->
+      <aside class="sidebar">
+        <h3 class="sidebar-title">Your Library</h3>
+
+        <div class="box">
+          <p>Create your first playlist</p>
+          <small>It's easy, we'll help you</small>
+          <button>Create playlist</button>
+        </div>
+
+        <div class="box">
+          <p>Let's find some podcasts to follow</p>
+          <small>We'll keep you updated on new episodes</small>
+          <button>Browse podcasts</button>
+        </div>
+      </aside>
+      <!-- ====== END OF SIDEBAR ====== -->
+
+      <!-- ====== MAIN CONTENT AREA ====== -->
+      <div class="main-box">
+        <!-- ====== HEADER ====== -->
+        <div class="header">
+          <div class="hc1">
+            <div class="hc11">
+              <i class="fa-brands fa-spotify brand"></i>
+            </div>
+            <div class="hc12">
+              <i class="fa-solid fa-house home"></i>
+            </div>
+            <div class="hc13">
+              <div class="hc131">
+                <i class="fa-solid fa-magnifying-glass search"></i>
+              </div>
+              <div class="hc132">
+                <input
+                  type="search"
+                  class="ip-ser"
+                  placeholder="what do you want to search?"
+                />
+              </div>
+              <div class="hc133">
+                <i class="fa-solid fa-window-restore search"></i>
+              </div>
+            </div>
+          </div>
+          <div class="hc2">
+            <div class="hc21">
+              <a href="https://www.spotify.com/in-en/premium/">Premium</a>
+              <a href="https://support.spotify.com/in-en/#_gl=1*1jh3w0h*_gcl_au*MTI5MDk5NTE0MC4xNzUxNDQ4MDU0">Support</a>
+              <a href="https://www.spotify.com/in-en/download/windows/">Download</a>
+            </div>
+            <div class="bar"></div>
+            <div class="hc22">
+              <button><i class="fa-solid fa-download"></i> Install App</button>
+            </div>
+            <div class="hc21">
+             <a href="https://www.spotify.com/in-en/download/windows/">Sign Up</a>
+            </div>
+            <div class="hc24">
+              <button>Login</button>
+            </div>
+          </div>
+        </div>
+        <!-- ====== END OF HEADER ====== -->
+
+        <!-- ====== TRENDING SONGS SECTION ====== -->
+        <section class="trending-section">
+          <div class="section-header">
+            <h2>Trending songs</h2>
+            <a href="#" class="show-all">Show all</a>
+          </div>
+
+          <!-- Horizontally scrollable container -->
+          <div class="trending-cards">
+            <!-- Card 1 -->
+     <div class="song-card">
+  <div class="song-thumb">
+    <img src="images/apt.jpg" alt="APT" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">APT</p>
+    <p class="song-artist">Rosie</p>
+  </div>
+</div>
+
+            <!-- Card 2 -->
+               <div class="song-card">
+  <div class="song-thumb">
+    <img src="images/devara.jpeg" alt="Devara" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Daavudi</p>
+    <p class="song-artist"> Nakash Aziz, Akasa Singh</p>
+  </div>
+</div>
+            <!-- Card 3 -->
+                    <div class="song-card">
+  <div class="song-thumb">
+    <img src="images/bediya.jpg" alt="Bediya" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Apna Banale</p>
+    <p class="song-artist"> Amitabh Bhattacharya</p>
+  </div>
+</div>
+            <!-- Card 4 -->
+                       <div class="song-card">
+  <div class="song-thumb">
+    <img src="images/yemito.jpg" alt="yemito" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Yemito</p>
+    <p class="song-artist"> HariCharan</p>
+  </div>
+</div>
+            <!-- Card 5 -->
+                       <div class="song-card">
+  <div class="song-thumb">
+    <img src="images/Blue.jpg" alt="Blue" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Blue</p>
+    <p class="song-artist"> Yung  kai</p>
+  </div>
+</div>
+            <!-- Card 6 -->
+                   <div class="song-card">
+  <div class="song-thumb">
+    <img src="images/raanjhana.jpg" alt="raanjhana" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Raanjhana</p>
+    <p class="song-artist">Jasvinder Singh</p>
+  </div>
+</div>
+            <!-- Card 7 -->
+                     <div class="song-card">
+  <div class="song-thumb">
+    <img src="images/perfect.jpg" alt="Perfect" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Perfect</p>
+    <p class="song-artist"> Ed Sheeran</p>
+  </div>
+</div>
+            <!-- Card 8 -->
+                     <div class="song-card">
+  <div class="song-thumb">
+    <img src="images/mantra.jpeg" alt="mantra" />
+  </div>
+  <div class="song-info">
+    <p class="song-title">Mantra</p>
+    <p class="song-artist">Kim  Jennie</p>
+  </div>
+</div>
+</section>
+        <!-- ====== POPULAR ARTISTS SECTION ====== -->
+        <section class="artists-section">
+          <div class="section-header">
+            <h2>Popular artists</h2>
+            <a href="#" class="show-all">Show all</a>
+          </div>
+
+          <!-- Horizontally scrollable container -->
+          <div class="artists-cards">
+            <!-- Artist 1 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+              <div class="placeholder-circle">
+                 <img src="images/arjith.jpg" alt="Arjith" />
+               </div>
+
+              </div>
+              
+              <p class="artist-name">Artist 1</p>
+            </div>
+            <!-- Artist 2 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <div class="placeholder-circle">
+                   <img src="images/anirudh.jpg" alt="Anirudh" />
+                    </div>
+
+              </div>
+              <p class="artist-name">Artist 2</p>
+            </div>
+            <!-- Artist 3 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <div class="placeholder-circle">
+                      <img src="images/chinmayi.jpeg" alt="Chinmayi" />
+                          </div>
+
+            
+              </div>
+              <p class="artist-name">Artist 3</p>
+            </div>
+            <!-- Artist 4 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <div class="placeholder-circle">
+                      <img src="images/selena.jpg" alt="selena" />
+                           </div>
+
+               
+              </div>
+              <p class="artist-name">Artist 4</p>
+            </div>
+            <!-- Artist 5 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <div class="placeholder-circle">
+                       <img src="images/taylor.jpg" alt="Taylor" />
+                        </div>
+
+                
+              </div>
+              <p class="artist-name">Artist 5</p>
+            </div>
+            <!-- Artist 6 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <div class="placeholder-circle">
+                       <img src="images/dsp.jpg" alt="DSP" />
+                        </div>
+              </div>
+              <p class="artist-name">Artist 6</p>
+            </div>
+            <!-- Artist 7 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                 <div class="placeholder-circle">
+                       <img src="images/shreya.jpg" alt="Shreya" />
+                        </div>
+              </div>
+              <p class="artist-name">Artist 7</p>
+            </div>
+            <!-- Artist 8 -->
+            <div class="artist-card">
+              <div class="artist-thumb">
+                <div class="placeholder-circle">
+                       <img src="images/jennie.jpg" alt="Jennie" />
+                        </div>
+              </div>
+              <p class="artist-name">Artist 8</p>
+            </div>
+          </div>
+        </section>
+        <!-- ====== END OF CONTENT ====== -->
+      </div>
+      <!-- ====== END OF MAIN CONTENT AREA ====== -->
+    </div>
+  </body>
+</html>
